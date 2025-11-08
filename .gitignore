@@ -12,7 +12,6 @@ env/
 models/*.gguf
 
 # Data files
-*.pdf
 *.csv
 
 
