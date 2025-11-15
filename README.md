@@ -29,3 +29,8 @@ Save the file to the `models/` directory like so:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
+PPT Presentation Link:
+https://drive.google.com/file/d/1EWEymZlgywh7NWQ2B0nSRWCf7e6D69iO/view?usp=sharing
+
