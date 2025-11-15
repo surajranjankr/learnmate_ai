@@ -2,7 +2,7 @@
 import faiss, pickle, numpy as np
 from sentence_transformers import SentenceTransformer
 
-embed_model = SentenceTransformer('all-MiniLM-L6-v2')
+embed_model = SentenceTransformer('multi-qa-MiniLM-L6-cos-v1')
 
 def build_vectorstore(texts: list, index_path: str = "embeddings/vectordb"):
     embeddings = embed_model.encode(texts)

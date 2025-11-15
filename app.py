@@ -90,13 +90,32 @@ if os.path.exists(DOC_PATH):
                             else:
                                 st.error(f"❌ Incorrect. Correct answer is: {q['answer']}. {correct_option}")
                                 
-    with tab3:
-        st.subheader("Ask a Question")
-        user_q = st.text_input("Your academic question:")
+        with tab3:
+            st.subheader("💬 Document Q&A Chatbot")
 
-        if user_q:
-            with st.spinner("Thinking..."):
-                reply = chatbot_rag.chatbot_respond(user_q)
-                st.markdown(f"**Answer:**\n{reply}")
+            if "chat_history" not in st.session_state:
+                st.session_state.chat_history = []
+
+            # Input for user's question
+            user_q = st.chat_input("Ask a question related to the uploaded document...")
+
+            if user_q:
+                with st.spinner("Thinking..."):
+                    answer = chatbot_rag.chatbot_respond(user_q)
+
+                    # Save this exchange to chat history
+                    st.session_state.chat_history.append({
+                        "role": "user",
+                        "content": user_q
+                    })
+                    st.session_state.chat_history.append({
+                        "role": "assistant",
+                        "content": answer
+                    })
+
+            # Show past chat messages in order
+            for msg in st.session_state.chat_history:
+                with st.chat_message(msg["role"]):
+                    st.markdown(msg["content"])
 else:
     st.warning("Please upload a document first (PDF or TXT).")
