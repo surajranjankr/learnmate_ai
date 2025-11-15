@@ -5,6 +5,15 @@ An offline AI Study Assistant that helps you learn better using:
 ✅ Quiz generator (interactive with answers)
 ✅ RAG-based chatbot for document Q&A
 
+
+# Project Creator:
+Suraj Ranjan kumar (24BDS082)
+Mohit (24BDS042)
+Dharmendra Yadav (24BDS019)
+Ravi Ranjan Bharti (24BDS065)
+Rupesh Kumar (24BDS069)
+
+
 ### 🚀 Features:
 - Powered by Mistral 7B GGUF (local LLM)
 - Built with Streamlit + Python
