@@ -1,31 +1,10 @@
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environment
-.venv/
-env/
-*.egg-info/
-
-# Model files
-models/*.gguf
-
-# Data files
-*.csv
-
-
-# Vector DB
+models/
 embeddings/
-*.pkl
+data/
+__pycache__/
+.env
+.venv/
+*.pdf
 *.index
-
-# Debug files
+*.pkl
 debug_*.txt
-
-# Streamlit state
-.streamlit/
-
-# OS junk
-.DS_Store
-Thumbs.db

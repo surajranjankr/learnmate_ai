@@ -1,1 +1,101 @@
-The data of the uploaded document will come here in the text format
+LearnMate AI 3 Offline AI
+Study Assistant
+Summarize. Quiz. Chat. Privately.
+Learn Smarter. Anywhere. Offline.
+Project Creator:
+Suraj Ranjan Kumar (24BDS082)
+Mohit (24BDS042)
+Rupesh Kumar (24BDS069)
+Dharmendra Yadav (24BDS019)
+Ravi Ranjan Bharti (24Bds065)
+LearnMate AI empowers students with a private, powerful AI study tool
+that works entirely offline, transforming how they interact with learning
+materials.
+The Challenge: Unmet Study
+Needs
+Students frequently encounter significant hurdles in their study routines,
+impacting their efficiency and learning outcomes.
+Information Overload
+Struggling to extract meaningful summaries from lengthy documents
+and textbooks.
+Lack of Practice
+Difficulty in self-assessment and knowledge reinforcement.
+Contextual Q&A Limitations
+Inability to get immediate, accurate answers based specifically on
+their personal notes or course materials.
+The Solution: LearnMate AI
+LearnMate AI provides an innovative, offline-first solution to these common study challenges.
+Document Input Intelligent Summaries
+Accepts PDF or plain text documents. Generates concise or detailed summaries.
+Interactive Quizzes Smart Chatbot
+Creates quizzes with answer checking. Answers questions based solely on user notes.
+Powered by the efficient Mistral-7B GGUF model and an intuitive Streamlit UI.
+LearnMate AI: Technology Stack
+A robust and efficient architecture underpins LearnMate AI's powerful offline capabilities.
+Interface Streamlit Python-based web application framework
+LLM Mistral-7B-Instruct Quantized GGUF model for local execution
+Model Runtime llama-cpp-python Bindings for LLaMA models in C++
+Summarizer Prompting via Mistral Brief or detailed summaries generated
+Quiz Generator Prompt + Regex Generates MCQs with answer parsing
+Chatbot RAG FAISS + SentenceTransformer Efficient semantic search and retrieval
+Parser pdfplumber Extracts text from PDF documents
+Language Python 3.12 Core programming language
+LearnMate AI: Application Workflow
+Experience a seamless flow from document upload to interactive learning.
+Extract Text
+Summarize / Quiz /
+Chat
+Upload File
+Split Chunks
+This intuitive workflow supports various study methods:
+Summaries for quick revision and understanding key concepts.
+Interactive quizzes for effective self-testing and knowledge recall.
+A document-specific chatbot to deepen learning through contextual Q&A.
+Robust Application Architecture
+LearnMate AI is structured in a clean, layered architecture ensuring efficiency and privacy.
+Backend Services
+Mistral (GGUF via llama-cpp),
+SentenceTransformer
+embeddings, FAISS
+Core Modules
+summarizer.py,
+quiz_generator.py,
+chatbot_rag.py,
+llama_model.py Frontend / UI
+Streamlit tabs: Upload,
+Summarizer, Quiz, Chatbot
+Chatbot Interaction: Behind the Scenes
+Understanding the query process for the RAG-powered chatbot.
+User Query
+You ask: "What is Newton's third law?"
+Semantic Search
+FAISS efficiently retrieves relevant context chunks from your uploaded documents.
+Prompt Generation
+The retrieved context and your question are combined into a prompt for Mistral.
+AI Response
+Mistral generates a brief, precise answer based strictly on the provided context.
+Display Answer
+The response is seamlessly displayed within the Streamlit chat interface.
+LearnMate AI: Core Features
+Discover the powerful capabilities that make LearnMate AI an indispensable study companion.
+Document Management Content Summarization Automated Quizzing
+Effortlessly upload and process PDF Get brief or detailed summaries to Generate multiple-choice questions
+or text study notes. grasp key information quickly. (MCQs) for self-testing.
+Instant Feedback Document-Based Chatbot Full Chat Experience
+Check answers and receive Engage with a RAG-powered AI for Enjoy a comprehensive chat
+immediate results to improve document-specific Q&A. interface with session memory,
+learning. similar to popular AI tools.
+Future Horizons for LearnMate AI
+Our vision extends to enriching LearnMate AI with advanced functionalities and broader integration.
+01 02 03
+Voice-to-Text Chat Browser Connectivity User Authentication
+Integrate Whisper for natural voice Optional deployment via Streamlit Cloud Develop student/teacher dashboards for
+interactions. for wider accessibility. personalized experiences.
+04 05 06
+Image-to-Notes Support Smart Revision Plans Gamified Learning
+Utilize Tesseract OCR for transcribing Leverage summaries and quiz results to Introduce leaderboards and scoring for
+content from images. create adaptive study schedules. repeated quiz sessions.
+Thank You
+GitHub: surajranjankr/learnmate_ai
+Built with: Python " Streamlit " Mistral GGUF " FAISS
+LearnMate AI 3 Learn Smarter, Anywhere, Anytime

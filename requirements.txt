@@ -2,6 +2,6 @@ streamlit
 llama-cpp-python
 faiss-cpu
 sentence-transformers
-numpy
 pdfplumber
-pandas
+numpy
+pillow
