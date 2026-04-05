@@ -100,11 +100,11 @@ PPT Presentation Link(Version 1):
 https://drive.google.com/file/d/14v8V_ELjbGtw8SIi1k8RyGSB2G7Z2ni4/view?usp=sharing
 
 PPT Presentation Link(Big Data - Version 2):
-https://drive.google.com/file/d/1shFCNXYtK6R9UA3wGFtXBurjiRaQK_qM/view?usp=sharing
+https://docs.google.com/presentation/d/15j2-XU0nFJFnNFFAwYk2wlh2sVMOqunX/edit?usp=sharing&ouid=109262647802171461229&rtpof=true&sd=true
 
 
 Report Link(Version 1):
 https://drive.google.com/file/d/1XqeNYPe2E7v_cm-u8WcW5zXGeBVw-EqU/view?usp=sharing
 
 Report Link(Big Data - Version 2):
-https://drive.google.com/file/d/1zM98WD3NxyB8HjsST5-EYonfN-l9kKq8/view?usp=sharing
+https://drive.google.com/file/d/11dNo_OAY1v6TZPpp0N2b4NTCgjUjCpgU/view?usp=sharing
