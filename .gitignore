@@ -1,5 +1,8 @@
 embeddings/vectordb_texts.json
 embeddings/vectordb.index
+data/latest_doc.txt
+data/learnmate_ai.db
+data/learnmate.db
 __pycache__/
 .env
 .venv/
