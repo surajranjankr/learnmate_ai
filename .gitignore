@@ -1,6 +1,5 @@
 models/
 embeddings/
-data/
 __pycache__/
 .env
 .venv/
